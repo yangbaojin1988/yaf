@@ -30,8 +30,8 @@ class IndexController extends Yaf_Controller_Abstract {
 
 		//var_dump(Sendmail::send('<h3>明天周六</h3>', 'xxx@xx.com','email测试'));
 		
-		//$str = 'Hello World';
-    		//$this->getView()->assign('content',$str);
+		$str = 'Hello Yaf';
+    		$this->getView()->assign('content',$str);
     		exit;
    	}
 }
