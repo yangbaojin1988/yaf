@@ -28,11 +28,11 @@ class IndexController extends Yaf_Controller_Abstract {
 		echo '<pre>';
 		var_dump($userAllResult);
 
-		//var_dump(Sendmail::send('<h3>明天周六</h3>', '1609900521@qq.com','email测试'));
+		//var_dump(Sendmail::send('<h3>明天周六</h3>', 'xxx@xx.com','email测试'));
 		
 		//$str = 'Hello World';
-    	//$this->getView()->assign('content',$str);
-    	exit;
+    		//$this->getView()->assign('content',$str);
+    		exit;
    	}
 }
 ?>
